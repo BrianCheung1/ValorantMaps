@@ -7,12 +7,12 @@ Learning to use bootstrap to make a helpful website for users that want to learn
 <h2>Updates</h2>
 <h3>Homescreen includes all 5 maps with buttons to see more info about each map</h3>
 
-![Home Screen](\imgs\HomeScreen.png)
+![Home Screen](https://i.imgur.com/E8THEGb.jpg)
 
 <h3>Each page provides extra information on a map</h3>
 
-![Ascent Preview](\imgs\AscentPreview.png)
+![Ascent Preview](https://i.imgur.com/VJQu20O.png)
 
 <h3>Bootstrap Carousel to preview locations on the map</h3>
 
-![Ascent Image Preview](\imgs\AscentImagePreview.png)
+![Ascent Image Preview](https://i.imgur.com/cXLXhYU.png)
