@@ -83,3 +83,7 @@
   .carousel-control-prev /*, .carousel-indicators */ {
       filter: invert(100%);
   }
+
+  a:hover, a:active, a:focus {
+    color:#c33;
+  }
