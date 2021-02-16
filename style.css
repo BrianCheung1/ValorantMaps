@@ -14,10 +14,16 @@
 
 .navbar-nav a{ 
     margin-left: auto; 
+    margin-right: 10px;
+    margin-top: 5px;
 } 
 
 .bg-img {
     background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png);
     background-repeat: no-repeat;
-    background-position: -5%, 110%;
+    background-position: -5% 75%, 110% ;
 }
+
+.shadow-title {
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+  }
