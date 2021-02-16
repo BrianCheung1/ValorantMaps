@@ -21,7 +21,7 @@
 .bg-img {
     background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png);
     background-repeat: no-repeat;
-    background-position: -5% 105%, 110% ;
+    background-position: -5%, 110% ;
 }
 
 .shadow-title {
