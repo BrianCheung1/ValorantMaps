@@ -27,3 +27,8 @@
 .shadow-title {
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
   }
+
+  .carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+      filter: invert(100%);
+  }
