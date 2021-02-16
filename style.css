@@ -1,0 +1,17 @@
+.navbar-brand{
+    position: relative;
+    background: url(./imgs/valorant.png);
+    width: 48px;
+    height: 32.72px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-nav { 
+    margin-left: auto; 
+} 
+
+.navbar-nav a{ 
+    margin-left: auto; 
+} 
