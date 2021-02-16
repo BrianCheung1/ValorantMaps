@@ -24,6 +24,57 @@
     background-position: -5%, 110% ;
 }
 
+.bg-img2{
+    background-image: url(./imgs/Loading_Screen_Ascent.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-img3{
+    background-image: url(./imgs/Loading_Screen_Bind.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-img4{
+    background-image: url(./imgs/Loading_Screen_Haven.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-img5{
+    background-image: url(./imgs/Loading_Icebox.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-img6{
+    background-image: url(./imgs/Loading_Screen_Split.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .shadow-title {
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
   }
