@@ -119,4 +119,11 @@
  
 .mapbuttons{
     width: 75px !important;
+    border-radius: 0px;
+}
+.mapbuttons:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
+    -webkit-transition: transform .1s ease-in-out;
+    
 }
