@@ -138,3 +138,12 @@
 .card {
     background-color: #180e31;
 }
+
+.fa-angle-right{ 
+    transition: all .2s ease; 
+}
+.fa-angle-right:hover{
+    color: red;
+    transform: rotate(90deg);
+    transition: transform 0.2s ease-in-out;
+}
