@@ -22,6 +22,7 @@
     background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png);
     background-repeat: no-repeat;
     background-position: -5%, 110% ;
+    background-attachment: fixed;
 }
 
 .bg-img2{
@@ -32,6 +33,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .bg-img3{
@@ -42,6 +44,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .bg-img4{
@@ -52,6 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .bg-img5{
@@ -62,6 +66,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .bg-img6{
@@ -72,6 +77,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.bg-img7{
+    background-image: url(./imgs/Homescreen.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
     
 }
 
@@ -108,18 +127,10 @@
     transform: scale(1.2);
   }
   
-  /*
-  .mapcard:hover {
-    transform: scale(1.2);
-    transition: transform .25s ease-in-out;
+  .homescreencards{
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
-    border-radius: 0;
-    border-color: #c33;
-    z-index: 1;
-    position:relative;
   }
- */
-
+  
   .mapcard:hover {
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
   }

@@ -16,3 +16,7 @@ Learning to use bootstrap to make a helpful website for users that want to learn
 <h3>Bootstrap Carousel to preview locations on the map</h3>
 
 ![Ascent Image Preview](https://i.imgur.com/cXLXhYU.png)
+
+<h3>Added buttons/collapse tabs to each map page</h3>
+
+![Map Updates](https://i.imgur.com/6RHSuGE.png)
