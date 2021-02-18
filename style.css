@@ -139,7 +139,7 @@
     transform: scale(1.2);
   }
   
-  .homescreencards{
+  .homescreencards:hover{
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
   }
   
@@ -169,4 +169,23 @@
     color: red;
     transform: rotate(90deg);
     transition: transform 0.2s ease-in-out;
+}
+
+.gun-img{
+    transition: all .1s ease; 
+    
+}
+
+.gun-img:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+    -webkit-transition: transform .1s ease-in-out;  
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
 }

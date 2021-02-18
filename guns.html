@@ -1,36 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset=" utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Preview of Valorant Guns">
-<meta name="author" content="Brian Cheung">
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preview of Valorant Guns">
+    <meta name="author" content="Brian Cheung">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./imgs/favicon.jpg">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="customjs.js" crossorigin="anonymous"></script>
 
-
-<link rel="shortcut icon" type="image/png" href="./imgs/favicon.jpg">
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
-</script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-<script src="customjs.js" crossorigin="anonymous"></script>
-
-<title>Valorant Guns</title>
+    <title>Valorant Guns</title>
 </head>
 
-<body class="bg-dark text-white text-center">
+<body class="bg-dark text-white">
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container-fluid">
@@ -52,73 +45,174 @@
         </div>
     </nav>
 
-
+    
     <!-- Title -->
-    <h1 class="shadow-title"><span class="text-danger font-weight-bold">VALORANT GUNS</span> </h1>
+    <h1 class="shadow-title text-center"><span class="text-danger font-weight-bold">VALORANT GUNS</span> </h1>
 
-    <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" id="btn-all" class="btn btn-dark shadow">All</button>
-        <button type="button" id="btn-sidearms" class="btn btn-dark shadow">Sidearms</button>
-        <button type="button" id="btn-smgs" class="btn btn-dark shadow" >SMGS</button>
-        <button type="button" id="btn-shotguns" class="btn btn-dark shadow">Shotgun</button>
-        <button type="button" id="btn-rifles" class="btn btn-dark shadow">Rifles</button>
-        <button type="button" id="btn-snipers" class="btn btn-dark shadow">Snipers</button>
-        <button type="button" id="btn-heavys" class="btn btn-dark shadow">Heavys</button>
-      </div>
-      
+    <div class="row text-center">
+        <div class="col-xl-12">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" id="btn-all" class="btn btn-dark shadow ">All</button>
+                <button type="button" id="btn-sidearms" class="btn btn-dark shadow">Sidearms</button>
+                <button type="button" id="btn-smgs" class="btn btn-dark shadow">SMGS</button>
+                <button type="button" id="btn-shotguns" class="btn btn-dark shadow">Shotgun</button>
+                <button type="button" id="btn-rifles" class="btn btn-dark shadow">Rifles</button>
+                <button type="button" id="btn-snipers" class="btn btn-dark shadow">Snipers</button>
+                <button type="button" id="btn-heavys" class="btn btn-dark shadow">Heavys</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Map Cards-->
+    
     <div class="container-fluid">
+        
+
         <div class="row justify-content-center">
-            <div class="col-md-2 my-2 sidearms">
-                <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Classic</div>
-                    <img src="./imgs/Classic.png" class="card-img-top" alt="...">
+            <div class="col-lg-2 my-2 sidearms ">
+                <div class="card bg-dark bg-transparent border-danger ">
+                    <div class="card-header bg-transparent border-0 text-center">Classic</div>
+                    <a data-toggle="collapse" href="#classicDescription"><img src="./imgs/Classic.png"
+                            class="card-img-top gun-img" alt="..."></a>
+
+                    <div class="collapse show" id="classicDescription">
+                        <div class="card-body bg-dark border-dark">
+                            <p><span class="left">
+                                    <p>Type
+                                </span><span class="right">Sidearm</p></span>
+                            <p><span class="left">
+                                    <p>Creds
+                                </span><span class="right">Free</p></span>
+                            <p><span class="left">
+                                    <p>Magazine
+                                </span><span class="right">12</p></span>
+                            <p><span class="left">
+                                    <p>Wall Penetration
+                                </span><span class="right">Low</p></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-2 my-2 sidearms ">
+                <div class="card bg-dark bg-transparent border-danger  ">
+                    <div class="card-header bg-transparent border-0 text-center">Shorty</div>
+                    <a data-toggle="collapse" href="#shortyDescription"><img src="./imgs/Shorty.png"
+                            class="card-img-top gun-img" alt="..."></a>
+
+                    <div class="collapse show" id="shortyDescription">
+                        <div class="card-body bg-dark border-dark">
+                            <p><span class="left">
+                                    <p>Type
+                                </span><span class="right">Sidearm</p></span>
+                            <p><span class="left">
+                                    <p>Creds
+                                </span><span class="right">Free</p></span>
+                            <p><span class="left">
+                                    <p>Magazine
+                                </span><span class="right">12</p></span>
+                            <p><span class="left">
+                                    <p>Wall Penetration
+                                </span><span class="right">Low</p></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-2 my-2 sidearms">
+                <div class="card bg-dark  bg-transparent border-danger ">
+                    <div class="card-header bg-transparent border-0 text-center">Frenzy</div>
+                    <a data-toggle="collapse" href="#frenzyDescription"><img src="./imgs/Frenzy.png"
+                            class="card-img-top gun-img" alt="..."></a>
+                    <div class="collapse show" id="frenzyDescription">
+                        <div class="card-body bg-dark border-dark">
+                            <p><span class="left">
+                                    <p>Type
+                                </span><span class="right">Sidearm</p></span>
+                            <p><span class="left">
+                                    <p>Creds
+                                </span><span class="right">Free</p></span>
+                            <p><span class="left">
+                                    <p>Magazine
+                                </span><span class="right">12</p></span>
+                            <p><span class="left">
+                                    <p>Wall Penetration
+                                </span><span class="right">Low</p></span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-2 my-2 sidearms">
-                <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Shorty</div>
-                    <img src="./imgs/Shorty.png" class="card-img-top" alt="...">
+            <div class="col-lg-2 my-2 sidearms">
+                <div class="card bg-dark  bg-transparent border-danger  ">
+                    <div class="card-header bg-transparent border-0 text-center">Ghost</div>
+                    <a data-toggle="collapse" href="#ghostDescription"><img src="./imgs/Ghost.png"
+                            class="card-img-top gun-img" alt="..."></a>
+
+                    <div class="collapse show" id="ghostDescription">
+                        <div class="card-body bg-dark border-dark">
+                            <p><span class="left">
+                                    <p>Type
+                                </span><span class="right">Sidearm</p></span>
+                            <p><span class="left">
+                                    <p>Creds
+                                </span><span class="right">Free</p></span>
+                            <p><span class="left">
+                                    <p>Magazine
+                                </span><span class="right">12</p></span>
+                            <p><span class="left">
+                                    <p>Wall Penetration
+                                </span><span class="right">Low</p></span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <div class="col-md-2 my-2 sidearms">
-                <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Frenzy</div>
-                    <img src="./imgs/Frenzy.png" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-            <div class="col-md-2 my-2 sidearms">
-                <div class="card bg-dark  bg-transparent border-0 ">
-                    <div class="card-header bg-transparent border-0">Ghost</div>
-                    <img src="./imgs/Ghost.png" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-            <div class="col-md-2 my-2 sidearms">
-                <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Sheirff</div>
-                    <img src="./imgs/Sheriff.png" class="card-img-top" alt="...">
+            <div class="col-lg-2 my-2 sidearms">
+                <div class="card bg-dark  bg-transparent border-danger ">
+                    <div class="card-header bg-transparent border-0 text-center">Sheirff</div>
+                    <a data-toggle="collapse" href="#sheriffDescription"><img src="./imgs/Sheriff.png"
+                            class="card-img-top gun-img" alt="..."></a>
+                    <div class="collapse show" id="sheriffDescription">
+                        <div class="card-body bg-dark border-dark">
+                            <p><span class="left">
+                                    <p>Type
+                                </span><span class="right">Sidearm</p></span>
+                            <p><span class="left">
+                                    <p>Creds
+                                </span><span class="right">Free</p></span>
+                            <p><span class="left">
+                                    <p>Magazine
+                                </span><span class="right">12</p></span>
+                            <p><span class="left">
+                                    <p>Wall Penetration
+                                </span><span class="right">Low</p></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
 
         <div class="row justify-content-center smgs">
             <div class="col-md-3 my-2 ">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Stinger</div>
-                    <img src="./imgs/Stinger.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Stinger</div>
+                    <img src="./imgs/Stinger.png" class="card-img-top gun-img" alt="...">
                 </div>
-                
+
             </div>
 
             <div class="col-md-3 my-2 smgs">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Spectre</div>
-                    <img src="./imgs/Spectre.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Spectre</div>
+                    <img src="./imgs/Spectre.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
         </div>
@@ -126,15 +220,15 @@
         <div class="row justify-content-center">
             <div class="col-md-3 my-2 shotguns">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Bucky</div>
-                    <img src="./imgs/Bucky.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Bucky</div>
+                    <img src="./imgs/Bucky.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
 
             <div class="col-md-3 my-2 shotguns">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Judge</div>
-                    <img src="./imgs/Judge.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Judge</div>
+                    <img src="./imgs/Judge.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
         </div>
@@ -142,29 +236,29 @@
         <div class="row justify-content-center ">
             <div class="col-md-3 my-2 rifles">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Bulldog</div>
-                    <img src="./imgs/Bulldog.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Bulldog</div>
+                    <img src="./imgs/Bulldog.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
 
             <div class="col-md-3 my-2 rifles">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Guardian</div>
-                    <img src="./imgs/Guardian.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Guardian</div>
+                    <img src="./imgs/Guardian.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
 
             <div class="col-md-3 my-2 rifles">
                 <div class="card bg-dark bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Phantom</div>
-                    <img src="./imgs/Phantom.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Phantom</div>
+                    <img src="./imgs/Phantom.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
 
             <div class="col-md-3 my-2 rifles">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Vandal</div>
-                    <img src="./imgs/Vandal.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Vandal</div>
+                    <img src="./imgs/Vandal.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
         </div>
@@ -172,34 +266,34 @@
         <div class="row justify-content-center">
             <div class="col-md-4 my-2 snipers">
                 <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Marshal</div>
-                    <img src="./imgs/Marshal.png" class="card-img-top" alt="...">
+                    <div class="card-header bg-transparent border-0 text-center">Marshal</div>
+                    <img src="./imgs/Marshal.png" class="card-img-top gun-img" alt="...">
                 </div>
             </div>
 
             <div class="col-md-4 my-2 snipers"">
-                <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Operator</div>
-                    <img src="./imgs/Operator.png" class="card-img-top" alt="...">
-                </div>
+                <div class=" card bg-dark bg-transparent border-0">
+                <div class="card-header bg-transparent border-0 text-center">Operator</div>
+                <img src="./imgs/Operator.png" class="card-img-top gun-img" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4 my-2 heavys">
+            <div class="card bg-dark  bg-transparent border-0">
+                <div class="card-header bg-transparent border-0 text-center">Ares</div>
+                <img src="./imgs/Ares.png" class="card-img-top gun-img" alt="...">
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md-4 my-2 heavys">
-                <div class="card bg-dark  bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Ares</div>
-                    <img src="./imgs/Ares.png" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-            <div class="col-md-4 my-2 heavys">
-                <div class="card bg-dark bg-transparent border-0">
-                    <div class="card-header bg-transparent border-0">Odin</div>
-                    <img src="./imgs/Odin.png" class="card-img-top" alt="...">
-                </div>
+        <div class="col-md-4 my-2 heavys">
+            <div class="card bg-dark bg-transparent border-0">
+                <div class="card-header bg-transparent border-0 text-center">Odin</div>
+                <img src="./imgs/Odin.png" class="card-img-top gun-img" alt="...">
             </div>
         </div>
+    </div>
 
     </div>
 
