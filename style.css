@@ -1,4 +1,4 @@
-.navbar-brand{
+.navbar-brand {
     position: relative;
     background: url(./imgs/valorant.png);
     width: 48px;
@@ -8,24 +8,24 @@
     background-position: center;
 }
 
-.navbar-nav { 
-    margin-left: auto; 
-} 
+.navbar-nav {
+    margin-left: auto;
+}
 
-.navbar-nav a{ 
-    margin-left: auto; 
+.navbar-nav a {
+    margin-left: auto;
     margin-right: 10px;
     margin-top: 5px;
-} 
+}
 
 .bg-img {
     background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png);
     background-repeat: no-repeat;
-    background-position: -5%, 110% ;
+    background-position: -5%, 110%;
     background-attachment: fixed;
 }
 
-.bg-img2{
+.bg-img2 {
     background-image: url(./imgs/Loading_Screen_Ascent.png);
     height: 100%;
     width: auto;
@@ -34,9 +34,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
-.bg-img3{
+
+.bg-img3 {
     background-image: url(./imgs/Loading_Screen_Bind.png);
     height: 100%;
     width: auto;
@@ -45,9 +46,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
-.bg-img4{
+
+.bg-img4 {
     background-image: url(./imgs/Loading_Screen_Haven.png);
     height: 100%;
     width: auto;
@@ -56,9 +58,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
-.bg-img5{
+
+.bg-img5 {
     background-image: url(./imgs/Loading_Icebox.png);
     height: 100%;
     width: auto;
@@ -67,9 +70,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
-.bg-img6{
+
+.bg-img6 {
     background-image: url(./imgs/Loading_Screen_Split.png);
     height: 100%;
     width: auto;
@@ -78,10 +82,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
 
-.bg-img7{
+.bg-img7 {
     background-image: url(./imgs/Homescreen.png);
     height: 100%;
     width: auto;
@@ -90,11 +94,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-    
+
+
 }
 
-.bg-img8{
+.bg-img8 {
     background-image: url(./imgs/gunsbackground.jpg);
     height: 100%;
     width: auto;
@@ -106,55 +110,66 @@
 }
 
 .shadow-title {
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-  }
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
 
-  .carousel-control-next,
-  .carousel-control-prev /*, .carousel-indicators */ {
-      filter: invert(100%);
-  }
+.carousel-control-next,
+.carousel-control-prev
 
-  a:hover, a:active, a:focus {
-    color:#c33;
-  }
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+}
 
-  .card-img-wrap {
+a:hover,
+a:active,
+a:focus {
+    color: #c33;
+}
+
+.card-img-wrap {
     overflow: hidden;
     position: relative;
-  }
-  
-  .card-img-wrap:after {
+}
+
+.card-img-wrap:after {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(255,255,255,0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
     opacity: 0;
     transition: opacity .25s;
-  }
-  .card-img-wrap img {
+}
+
+.card-img-wrap img {
     transition: transform .25s;
     width: 100%;
-  }
-  .card-img-wrap:hover img {
-    transform: scale(1.2);
-  }
-  
-  .homescreencards:hover{
-    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
-  }
-  
-  .mapcard:hover {
-    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
-  }
+}
 
-.mapbuttons{
+.card-img-wrap:hover img {
+    transform: scale(1.2);
+}
+
+.homescreencards:hover {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+.mapcard:hover {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+.mapbuttons {
     width: 75px !important;
     border-radius: 0px;
 }
+
 .mapbuttons:hover {
     transform: scale(1.2);
     transition-duration: .5s;
-    -webkit-transition: transform .1s ease-in-out;  
+    -webkit-transition: transform .1s ease-in-out;
 }
 
 .cardmap {
@@ -162,30 +177,30 @@
 }
 
 
-.fa-angle-right{ 
-    transition: all .2s ease; 
+.fa-angle-right {
+    transition: all .2s ease;
 }
-.fa-angle-right:hover{
+
+.fa-angle-right:hover {
     color: red;
     transform: rotate(90deg);
     transition: transform 0.2s ease-in-out;
 }
 
-.gun-img{
-    transition: all .1s ease; 
-    
+.gun-img {
+    transition: all .1s ease;
 }
 
-.gun-img:hover{
+.gun-img:hover {
     transform: scale(1.1);
     transition-duration: .5s;
-    -webkit-transition: transform .1s ease-in-out;  
+    -webkit-transition: transform .1s ease-in-out;
 }
 
-.right{
-    float:right;
+.right {
+    float: right;
 }
 
-.left{
-    float:left;
+.left {
+    float: left;
 }
