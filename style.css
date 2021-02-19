@@ -109,6 +109,18 @@
     background-attachment: fixed;
 }
 
+.bg-img9 {
+    background-image: url(./imgs/ValorantLoadScreen.jpg);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .shadow-title {
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -203,4 +215,8 @@ a:focus {
 
 .left {
     float: left;
+}
+
+.text-bolded {
+    font: small-caps bold 24px/2 cursive;
 }
