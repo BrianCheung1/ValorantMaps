@@ -219,7 +219,7 @@ a:focus {
 }
 
 .text-bolded {
-    font: small-caps bold 24px/2 cursive;
+    font: small-caps bold 24px/2;
     color: white !important;
 }
 
