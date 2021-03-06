@@ -6,6 +6,7 @@ $(document).ready(function () {
         $(".rifles").show();
         $(".snipers").show();
         $(".heavys").show();
+        $(".melee").hide();
     });
 });
 
@@ -17,6 +18,7 @@ $(document).ready(function () {
         $(".rifles").hide();
         $(".snipers").hide();
         $(".heavys").hide();
+        $(".melee").hide();
     });
 });
 
@@ -28,6 +30,7 @@ $(document).ready(function () {
         $(".rifles").hide();
         $(".snipers").hide();
         $(".heavys").hide();
+        $(".melee").hide();
     });
 });
 
@@ -39,6 +42,7 @@ $(document).ready(function () {
         $(".rifles").hide();
         $(".snipers").hide();
         $(".heavys").hide();
+        $(".melee").hide();
     });
 });
 
@@ -50,6 +54,7 @@ $(document).ready(function () {
         $(".rifles").show();
         $(".snipers").hide();
         $(".heavys").hide();
+        $(".melee").hide();
     });
 });
 
@@ -61,6 +66,7 @@ $(document).ready(function () {
         $(".rifles").hide();
         $(".snipers").show();
         $(".heavys").hide();
+        $(".melee").hide();
     });
 });
 
@@ -72,5 +78,18 @@ $(document).ready(function () {
         $(".rifles").hide();
         $(".snipers").hide();
         $(".heavys").show();
+        $(".melee").hide();
+    });
+});
+
+$(document).ready(function () {
+    $("#btn-melee").click(function () {
+        $(".sidearms").hide();
+        $(".smgs").hide();
+        $(".shotguns").hide();
+        $(".rifles").hide();
+        $(".snipers").hide();
+        $(".heavys").hide();
+        $(".melee").show();
     });
 });

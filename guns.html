@@ -4,7 +4,7 @@
 <head>
     <meta charset=" utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Preview of Valorant Guns">
+    <meta name="description" content="Preview of Valorant Weapons">
     <meta name="author" content="Brian Cheung">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,7 +27,7 @@
     </script>
     <script src="customjs.js" crossorigin="anonymous"></script>
 
-    <title>Valorant Guns</title>
+    <title>Valorant Weapons</title>
 </head>
 
 <body class="bg-dark text-white bg-img8">
@@ -43,10 +43,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="btn btn-primary" aria-current="page" href="index.html">Home</a>
-                    <a class="btn btn-primary" href="https://github.com/BrianCheung1/ValorantMaps"
+                    <a class="btn btn-danger" aria-current="page" href="index.html">Home</a>
+                    <a class="btn btn-danger" href="https://github.com/BrianCheung1/ValorantMaps"
                         target="_blank">Github</a>
-                    <a class="btn btn-primary" href="#">Extras</a>
+                    <a class="btn btn-danger" href="#">Extras</a>
                 </div>
             </div>
         </div>
@@ -54,10 +54,10 @@
 
 
     <!-- Title -->
-    <h1 class="shadow-title text-center"><span class="text-danger">VALORANT GUNS</span> </h1>
+    <h1 class="shadow-title text-center"><span class="text-danger">VALORANT WEAPONS</span> </h1>
     <p class="shadow-title text-center"><span class="text-danger">CLICK WEAPON TO VIEW STATS</span></h1>
 
-    
+
 
         <!-- Map Cards-->
         <div class="container-fluid">
@@ -71,14 +71,17 @@
                         <button type="button" id="btn-rifles" class="btn btn-dark shadow">Rifles</button>
                         <button type="button" id="btn-snipers" class="btn btn-dark shadow">Snipers</button>
                         <button type="button" id="btn-heavys" class="btn btn-dark shadow">Heavys</button>
+                        <button type="button" id="btn-melee" class="btn btn-dark shadow">Melee</button>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-around">
-                <div class="col-md-2 my-2 sidearms ">
+            <div class="row justify-content-center">
+                <div class="col-lg-2 my-2 sidearms ">
                     <div class="card bg-dark bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Classic</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Classic</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#classicDescription"><img src="./imgs/Classic.png"
                                 class="card-img-top gun-img" alt="..."></a>
                         <!-- Modal -->
@@ -130,9 +133,11 @@
                 </div>
 
 
-                <div class="col-md-2 my-2 sidearms ">
+                <div class="col-lg-2 my-2 sidearms ">
                     <div class="card bg-dark bg-transparent border-0 ">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Shorty</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Shorty</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#shortyDescription"><img src="./imgs/Shorty.png"
                                 class="card-img-top gun-img" alt="..."></a>
 
@@ -187,9 +192,11 @@
 
 
 
-                <div class="col-md-2 my-2 sidearms">
+                <div class="col-lg-2 my-2 sidearms">
                     <div class="card bg-dark  bg-transparent border-0 ">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Frenzy</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Frenzy</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#frenzyDescription"><img src="./imgs/Frenzy.png"
                                 class="card-img-top gun-img" alt="..."></a>
                         <!-- Modal -->
@@ -240,9 +247,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 sidearms">
+                <div class="col-lg-2 my-2 sidearms">
                     <div class="card bg-dark  bg-transparent border-0  ">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Ghost</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Ghost</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#ghostDescription"><img src="./imgs/Ghost.png"
                                 class="card-img-top gun-img" alt="..."></a>
                         <!-- Modal -->
@@ -294,9 +303,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 sidearms">
+                <div class="col-lg-2 my-2 sidearms">
                     <div class="card bg-dark bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Sheriff</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Sheriff</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#sheriffDescription"><img src="./imgs/Sheriff.png"
                                 class="card-img-top gun-img" alt="..."></a>
                         <!-- Modal -->
@@ -347,11 +358,13 @@
                     </div>
                 </div>
 
+                <div class="w-100"></div>
 
-
-                <div class="col-md-2 my-2 smgs">
+                <div class="col-lg-3 my-2 smgs">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded   "><h3 class="shadow-title text-center"><span class="text-danger">Stinger</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded   ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Stinger</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#stingerDescription"><img src="./imgs/Stinger.png"
                                 class="card-img-top gun-img" alt="..."></a>
                         <!-- Modal -->
@@ -410,9 +423,11 @@
 
                 </div>
 
-                <div class="col-md-2 my-2 smgs">
+                <div class="col-lg-3 my-2 smgs">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Spectre</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Spectre</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#spectreDescription"><img src="./imgs/Spectre.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -469,11 +484,13 @@
                     </div>
                 </div>
 
+                <div class="w-100"></div>
 
-
-                <div class="col-md-2 my-2 shotguns">
+                <div class="col-lg-3 my-2 shotguns">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Bucky</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Bucky</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#buckyDescription"><img src="./imgs/Bucky.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -533,9 +550,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 shotguns">
+                <div class="col-lg-3 my-2 shotguns">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Judge</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Judge</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#judgeDescription"><img src="./imgs/Judge.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -589,11 +608,13 @@
                     </div>
                 </div>
 
+                <div class="w-100"></div>
 
-
-                <div class="col-md-2 my-2 rifles">
+                <div class="col-lg-3 my-2 rifles">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Bulldog</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Bulldog</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#bulldogDescription"><img src="./imgs/Bulldog.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -645,9 +666,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 rifles">
+                <div class="col-lg-3 my-2 rifles">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Guardian</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Guardian</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#guardianDescription"><img src="./imgs/Guardian.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -699,9 +722,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 rifles">
+                <div class="col-lg-3 my-2 rifles">
                     <div class="card bg-dark bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Phantom</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Phantom</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#phantomDescription"><img src="./imgs/Phantom.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -762,9 +787,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 rifles">
+                <div class="col-lg-3 my-2 rifles">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Vandal</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Vandal</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#vandalDescription"><img src="./imgs/Vandal.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -817,11 +844,13 @@
                     </div>
                 </div>
 
+                <div class="w-100"></div>
 
-
-                <div class="col-md-2 my-2 snipers">
+                <div class="col-lg-3 my-2 snipers">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Marshal</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Marshal</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#marshalDescription"><img src="./imgs/Marshal.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -874,9 +903,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 snipers">
+                <div class="col-lg-3 my-2 snipers">
                     <div class=" card bg-dark bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Operator</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Operator</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#operatorDescription"><img src="./imgs/Operator.png"
                                 class="card-img-top gun-img img-fluid" alt="..."></a>
                     </div>
@@ -930,12 +961,13 @@
                     </div>
                 </div>
 
+                <div class="w-100"></div>
 
-
-
-                <div class="col-md-2 my-2 heavys">
+                <div class="col-lg-3 my-2 heavys">
                     <div class="card bg-dark  bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Ares</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Ares</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#aresDescription"><img src="./imgs/Ares.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -994,9 +1026,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 my-2 heavys">
+                <div class="col-lg-3 my-2 heavys">
                     <div class="card bg-dark bg-transparent border-0">
-                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  "><h3 class="shadow-title text-center"><span class="text-danger">Odin</span></h3></div>
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Odin</span></h3>
+                        </div>
                         <a href="" data-toggle="modal" data-target="#odinDescription"><img src="./imgs/Odin.png"
                                 class="card-img-top gun-img" alt="..."></a>
                     </div>
@@ -1054,6 +1088,51 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="w-100"></div>
+
+                <div class="col-lg-3 my-2 melee">
+                    <div class="card bg-dark bg-transparent border-0">
+                        <div class="card-header bg-transparent border-0 text-center text-danger text-bolded  ">
+                            <h3 class="shadow-title text-center"><span class="text-danger">Tactical Knife</span></h3>
+                        </div>
+                        <a href="" data-toggle="modal" data-target="#knifeDescription"><img
+                                src="./imgs/TacticalKnife.png" class="card-img-top gun-img" alt="..."></a>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="knifeDescription">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header border-danger justify-content-center">
+                                    <h5 class="modal-title">Tactical Knife</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Type<span class="right">Melee</span></br>
+                                        Creds<span class="right">0</span></br></p>
+
+                                    <div class="modal-header border-danger justify-content-center">
+                                        <h5 class="modal-title">Damage</h5>
+                                    </div>
+                                    <table class="table table-dark text-center table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>0-8m</strong></br>
+                                                    Primary - 50</br>
+                                                    Secondary - 75</br>
+                                                    Secondary Backstab - 150
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="modal-footer bg-dark border-danger justify-content-center">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
