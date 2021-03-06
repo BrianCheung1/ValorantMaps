@@ -20,3 +20,9 @@ Learning to use bootstrap to make a helpful website for users that want to learn
 <h3>Added buttons/collapse tabs to each map page</h3>
 
 ![Map Updates](https://i.imgur.com/6RHSuGE.png)
+
+<h3>Added guns and their stats</h3>
+
+![Gun Updates](https://i.imgur.com/sp25zBT.jpg)
+
+![Gun stats](https://i.imgur.com/Niav0Tq.png)
