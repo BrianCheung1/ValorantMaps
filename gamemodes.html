@@ -54,24 +54,25 @@
     <!-- Title -->
     <h1 class="shadow-title text-center""><span class=" text-danger">VALORANT GAMEMODES</span></h1>
 
+
     <div class="text-center">
-        <div class="btn-group" id="btn-modes">
-            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+        <div class="btn-group">
+            <button type="button" id = "btn-unratedfeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="0">UNRATED</button>
-            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+            <button type="button" id = "btn-rankedfeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="1">RANKED</button>
-            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+            <button type="button" id = "btn-spikefeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="2">SPIKE RUSH</button>
-            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+            <button type="button" id = "btn-deathfeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="3">DEATH MATCH</button>
-            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+            <button type="button" id = "btn-escalationfeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="4">ESCALATION</button>
         </div>
     </div>
 
     <div class="container-fluid">
         <div class="row justify-content-center mt-3">
-            <div class="col-lg-5 mb-2 slide-in">
+            <div class="col-xl-5 mb-2 slide-in">
                 <div id="carouselExampleControls" class="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -81,9 +82,7 @@
                                     <h5 class="card-title text-center"">UNRATED</h5>
                                     <p class=" card-text">Unrated is where you can either play Valorant casually, or
                                         play to test your skill without worrying about your Valorant rank placement.</p>
-                                        <button type="button" id="btn-unratedfeatures"
-                                            class="btn btn-danger shadow ">More
-                                            Info</button>
+                                        <button type="button" onclick ="change()" id="btn-unratedfeatures1" class="btn btn-danger shadow">More Info</button>
                                 </div>
                             </div>
                         </div>
@@ -94,8 +93,7 @@
                                     <h5 class="card-title text-center">RANKED</h5>
                                     <p class="card-text">Ranked Gamemode is where you play competitively against other
                                         player to get your placement in the Valorant ranks.</p>
-                                    <button type="button" id="btn-rankedfeatures" class="btn btn-danger shadow ">More
-                                        Info</button>
+                                        <button type="button" onclick ="change()" id="btn-rankedfeatures1" class="btn btn-danger shadow">More Info</button>
                                 </div>
                             </div>
                         </div>
@@ -107,8 +105,7 @@
                                     <p class="card-text">Spike Rush is a gamemode where you play a shortened version of
                                         the Plant/Defuse gamemode casually with other players. Games are first to 4
                                         rounds won.</p>
-                                    <button type="button" id="btn-spikefeatures" class="btn btn-danger shadow ">More
-                                        Info</button>
+                                        <button type="button" onclick ="change()" id="btn-spikefeatures1" class="btn btn-danger shadow">More Info</button>
                                 </div>
                             </div>
                         </div>
@@ -120,8 +117,7 @@
                                     <p class="card-text">Deathmatch is a game mode where you will be placed with 14
                                         different players in a randomly selected map, to test your skill with the gun of
                                         your choice from the shop.</p>
-                                    <button type="button" id="btn-deathfeatures" class="btn btn-danger shadow ">More
-                                        Info</button>
+                                    <button type="button" onclick ="change()" id="btn-deathfeatures1" class="btn btn-danger shadow">More Info</button>
                                 </div>
                             </div>
                         </div>
@@ -133,9 +129,7 @@
                                     <p class="card-text">Escalation is 5v5 game mode with 12 escalation levels (each
                                         level has a specific weapon or ability). The first team to 12, or furthest along
                                         in 10 minutes, wins.</p>
-                                    <button type="button" id="btn-escalationfeatures"
-                                        class="btn btn-danger shadow ">More
-                                        Info</button>
+                                        <button type="button" onclick ="change()" id="btn-escalationfeatures1" class="btn btn-danger shadow">More Info</button>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +204,8 @@
                         <p class="card-text">
                             <ul>
                                 <li>The team together must earn 7 points on a level to advance to the next level</li>
-                                <li>A kill on the current level earns 1 point, a kill on a previous level earns .5 points</li>
+                                <li>A kill on the current level earns 1 point, a kill on a previous level earns .5
+                                    points</li>
                                 <li>7–9 mins</li>
                             </ul>
                         </p>
@@ -218,9 +213,9 @@
                 </div>
             </div>
 
+            
         </div>
     </div>
-
 
 </body>
 
