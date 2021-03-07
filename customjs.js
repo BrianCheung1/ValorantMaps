@@ -94,3 +94,22 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $(".features").hide();
+    $("#btn-unratedfeatures").click(function () {
+        $(".features").toggle();
+    });
+    $("#btn-rankedfeatures").click(function () {
+        $(".features").toggle();
+    });
+    $("#btn-spikefeatures").click(function () {
+        $(".features").toggle();
+    });
+    $("#btn-deathfeatures").click(function () {
+        $(".features").toggle();
+    });
+    $("#btn-escalationfeatures").click(function () {
+        $(".features").toggle();
+    });
+});
+

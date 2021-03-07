@@ -24,6 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script src="customjs.js" crossorigin="anonymous"></script>
 
     <title>Gamemodes</title>
 </head>
@@ -57,7 +58,7 @@
         <div class="btn-group">
             <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="0">UNRATED</button>
-            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+            <button type="button" id="btn-test" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="1">RANKED</button>
             <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="2">SPIKE RUSH</button>
@@ -80,7 +81,9 @@
                                     <h5 class="card-title text-center"">UNRATED</h5>
                                     <p class=" card-text">Unrated is where you can either play Valorant casually, or
                                         play to test your skill without worrying about your Valorant rank placement.</p>
-                                        <a href="#" class="btn btn-danger shadow">More Info</a>
+                                        <button type="button" id="btn-unratedfeatures"
+                                            class="btn btn-danger shadow ">More
+                                            Info</button>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +94,8 @@
                                     <h5 class="card-title text-center">RANKED</h5>
                                     <p class="card-text">Ranked Gamemode is where you play competitively against other
                                         player to get your placement in the Valorant ranks.</p>
-                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                    <button type="button" id="btn-rankedfeatures" class="btn btn-danger shadow ">More
+                                        Info</button>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +107,8 @@
                                     <p class="card-text">Spike Rush is a gamemode where you play a shortened version of
                                         the Plant/Defuse gamemode casually with other players. Games are first to 4
                                         rounds won.</p>
-                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                    <button type="button" id="btn-spikefeatures" class="btn btn-danger shadow ">More
+                                        Info</button>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +120,8 @@
                                     <p class="card-text">Deathmatch is a game mode where you will be placed with 14
                                         different players in a randomly selected map, to test your skill with the gun of
                                         your choice from the shop.</p>
-                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                    <button type="button" id="btn-deathfeatures" class="btn btn-danger shadow ">More
+                                        Info</button>
                                 </div>
                             </div>
                         </div>
@@ -127,10 +133,27 @@
                                     <p class="card-text">Escalation is 5v5 game mode with 12 escalation levels (each
                                         level has a specific weapon or ability). The first team to 12, or furthest along
                                         in 10 minutes, wins.</p>
-                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                    <button type="button" id="btn-escalationfeatures"
+                                        class="btn btn-danger shadow ">More
+                                        Info</button>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 features">
+                <div class="card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Features</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>5v5</li>
+                                <li>30-40mins</li>
+                                <li>weapons and armor purchasable</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>
