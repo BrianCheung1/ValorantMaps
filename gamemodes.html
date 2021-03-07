@@ -29,7 +29,7 @@
     <title>Gamemodes</title>
 </head>
 
-<body class="bg-dark text-white bg-img7" >
+<body class="bg-dark text-white bg-img7" style="overflow-x: hidden; ">
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container-fluid">
@@ -55,10 +55,10 @@
     <h1 class="shadow-title text-center""><span class=" text-danger">VALORANT GAMEMODES</span></h1>
 
     <div class="text-center">
-        <div class="btn-group">
+        <div class="btn-group" id="btn-modes">
             <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="0">UNRATED</button>
-            <button type="button" id="btn-test" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+            <button type="button"  class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="1">RANKED</button>
             <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="2">SPIKE RUSH</button>
@@ -71,7 +71,7 @@
 
     <div class="container-fluid">
         <div class="row justify-content-center mt-3">
-            <div class="col-lg-5 mb-2">
+            <div class="col-lg-5 mb-2 slide-in">
                 <div id="carouselExampleControls" class="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -143,7 +143,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 features slide-in ">
+            <div class="col-lg-3 features slide-in">
                 <div class="card bg-dark mb-2">
                     <div class="card-body">
                         <h5 class="card-title text-center">Features</h5>

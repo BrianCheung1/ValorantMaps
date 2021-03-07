@@ -111,5 +111,8 @@ $(document).ready(function () {
     $("#btn-escalationfeatures").click(function () {
         $(".features").toggle();
     });
+    $("#btn-modes").click(function () {
+        $(".features").hide();
+    });
 });
 
