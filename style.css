@@ -21,7 +21,7 @@
 .bg-img {
     background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png), url(./imgs/Homescreen.png);
     background-repeat: no-repeat;
-    background-position: -5% , 110%;
+    background-position: -5%, 110%;
     background-attachment: fixed;
 }
 
@@ -201,7 +201,7 @@ a:focus {
 
 .gun-img {
     transition: all .1s ease;
-    
+
 }
 
 .gun-img:hover {
@@ -227,11 +227,32 @@ a:focus {
     border: 1px dotted #cc2222;
 }
 
-.container {
-    height: 100%;
+
+.slide-in {
+    animation: slide-in 1s ease-out;
+    -webkit-animation: slide-in 1s ease-out;
+    overflow: hidden; 
 }
 
-html, body {
-    height: 100%;
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
 
+@-webkit-keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
