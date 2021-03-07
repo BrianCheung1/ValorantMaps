@@ -28,7 +28,7 @@
     <title>Gamemodes</title>
 </head>
 
-<body class="bg-dark text-white text-center bg-img7">
+<body class="bg-dark text-white bg-img7">
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container-fluid">
@@ -51,16 +51,90 @@
     </nav>
 
     <!-- Title -->
-    <h1 class="shadow-title"><span class="text-danger ">VALORANT GAMEMODES</span> </h1>
+    <h1 class="shadow-title text-center""><span class=" text-danger">VALORANT GAMEMODES</span></h1>
 
-    <div class="btn-group shadow">
-        <button type="button" class="btn btn-danger shadow">UNRATED</button>
-        <button type="button" class="btn btn-danger shadow">RANKED</button>
-        <button type="button" class="btn btn-danger shadow">SPIKE RUSH</button>
-        <button type="button" class="btn btn-danger shadow">DEATH MATCH</button>
-        <button type="button" class="btn btn-danger shadow">ESCALATION</button>
+    <div class="text-center">
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+                data-slide-to="0">UNRATED</button>
+            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+                data-slide-to="1">RANKED</button>
+            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+                data-slide-to="2">SPIKE RUSH</button>
+            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+                data-slide-to="3">DEATH MATCH</button>
+            <button type="button" class="btn btn-danger shadow" data-target="#carouselExampleControls"
+                data-slide-to="4">ESCALATION</button>
+        </div>
     </div>
 
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-3">
+            <div class="col-lg-5">
+                <div id="carouselExampleControls" class="carousel" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card bg-dark">
+                                <img class="card-img-top" src="./imgs/unrated.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"">UNRATED</h5>
+                                    <p class=" card-text">Unrated is where you can either play Valorant casually, or
+                                        play to test your skill without worrying about your Valorant rank placement.</p>
+                                        <a href="#" class="btn btn-danger shadow">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-dark">
+                                <img class="card-img-top" src="./imgs/ranked.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">RANKED</h5>
+                                    <p class="card-text">Ranked Gamemode is where you play competitively against other
+                                        player to get your placement in the Valorant ranks.</p>
+                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-dark">
+                                <img class="card-img-top" src="./imgs/spikerush.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">SPIKE RUSH</h5>
+                                    <p class="card-text">Spike Rush is a gamemode where you play a shortened version of
+                                        the Plant/Defuse gamemode casually with other players. Games are first to 4
+                                        rounds won.</p>
+                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-dark">
+                                <img class="card-img-top" src="./imgs/deathmatch.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">DEATH MATCH</h5>
+                                    <p class="card-text">Deathmatch is a game mode where you will be placed with 14
+                                        different players in a randomly selected map, to test your skill with the gun of
+                                        your choice from the shop.</p>
+                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-dark">
+                                <img class="card-img-top" src="./imgs/escalation.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">ESCALATION</h5>
+                                    <p class="card-text">Escalation is 5v5 game mode with 12 escalation levels (each
+                                        level has a specific weapon or ability). The first team to 12, or furthest along
+                                        in 10 minutes, wins.</p>
+                                    <a href="#" class="btn btn-danger shadow">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 </body>
