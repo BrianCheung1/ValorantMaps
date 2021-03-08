@@ -31,6 +31,6 @@ Learning to use bootstrap to make a helpful website for users that want to learn
 
 ![Gamemode info](https://i.imgur.com/Fq3N1Vo.png)
 
-<h3>Added External Agent site</h3>
+<h3>Added External Agent site -Credits to jma8774</h3>
 
 ![Agents](https://i.imgur.com/cOFDOCa.jpg)
