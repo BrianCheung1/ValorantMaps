@@ -24,6 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="customjs.js" crossorigin="anonymous"></script>
 
     <title>Gamemodes</title>
@@ -56,7 +57,7 @@
 
 
     <div class="text-center">
-        <div class="btn-group">
+        <div class="btn-group" id="btn-modes">
             <button type="button" id = "btn-unratedfeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
                 data-slide-to="0">UNRATED</button>
             <button type="button" id = "btn-rankedfeatures" class="btn btn-danger shadow" data-target="#carouselExampleControls"
@@ -72,10 +73,10 @@
 
     <div class="container-fluid">
         <div class="row justify-content-center mt-3">
-            <div class="col-xl-5 mb-2 slide-in">
+            <div class="col-xl-5 mb-2">
                 <div id="carouselExampleControls" class="carousel" data-interval="false">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active slide-up">
                             <div class="card bg-dark">
                                 <img class="card-img-top" src="./imgs/unrated.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -86,7 +87,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item slide-up">
                             <div class="card bg-dark">
                                 <img class="card-img-top" src="./imgs/ranked.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -97,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item slide-up">
                             <div class="card bg-dark">
                                 <img class="card-img-top" src="./imgs/spikerush.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -109,7 +110,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item slide-up">
                             <div class="card bg-dark">
                                 <img class="card-img-top" src="./imgs/deathmatch.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -121,7 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item slide-up">
                             <div class="card bg-dark">
                                 <img class="card-img-top" src="./imgs/escalation.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -142,10 +143,12 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Features</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>5v5</li>
-                                <li>30-40 mins game time</li>
-                                <li>13 rounds to win</li>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>5v5</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>30-40 mins game time</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>13 rounds to win</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Can queue with any players</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>100XP for round, 200XP for round win</li>
                             </ul>
                         </p>
                     </div>
@@ -157,10 +160,12 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Features</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>5v5</li>
-                                <li>30-40 mins game time</li>
-                                <li>13 rounds to win/2 rounds extra in overtime</li>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>5v5</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>30-40 mins game time</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>13 rounds to win/2 rounds extra in overtime</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Diamond 3+ Solo/Duo only</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Gain/Lose rank rating depending on game results/performance</li>
                             </ul>
                         </p>
                     </div>
@@ -172,10 +177,12 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Features</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>5v5</li>
-                                <li>8-10 mins game time</li>
-                                <li>Orbs for buffs and weapon upgrades</li>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>5v5</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>8-10 mins game time</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Orbs for buffs and weapon upgrades</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Random weapons each round</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Pre-round time is reduced to 20 seconds (usually 30) and game time is reduced to 80 seconds (usually 100)</li>
                             </ul>
                         </p>
                     </div>
@@ -187,10 +194,12 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Features</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>1v14</li>
-                                <li>9mins or 40 kills</li>
-                                <li>Abilities are disabled as agents are chosen automatically.</li>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>1v14</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>9mins or 40 kills</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Abilities are disabled as agents are chosen automatically.</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Any weapon is purchasable</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Health/Ammo packs are dropped on kills</li>
                             </ul>
                         </p>
                     </div>
@@ -202,11 +211,16 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Features</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>The team together must earn 7 points on a level to advance to the next level</li>
-                                <li>A kill on the current level earns 1 point, a kill on a previous level earns .5
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>The team together must earn 7 points on a level to advance to the next level</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>A kill on the current level earns 1 point, a kill on a previous level earns .5
                                     points</li>
-                                <li>7–9 mins</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>7–9 mins</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>800XP on a loss and 1000XP on a win</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Level 1: Always either Raze’s Showstopper or Vandal/Phantom</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Level 2: Always Vandal or Phantom.</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Levels 3–11: Assorted weapons and abilities</li>
+                                <li><span class="fa-li"><i class="fas fa-hand-point-right"></i></span></i>Level 12: Possible Shorty, Classic, Knife, Shock Dart...or even the Snowball Launcher</li>
                             </ul>
                         </p>
                     </div>

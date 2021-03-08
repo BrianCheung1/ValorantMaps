@@ -119,6 +119,7 @@ $(document).ready(function () {
         $(".deathfeatures").hide();
         $(".escalationfeatures").hide();
     });
+
     $("#btn-rankedfeatures").click(function () {
         if ($('.unratedfeatures').is(":visible")) {
             $(".rankedfeatures").show();
@@ -137,6 +138,7 @@ $(document).ready(function () {
         $(".deathfeatures").hide();
         $(".escalationfeatures").hide();
     });
+
     $("#btn-spikefeatures").click(function () {
         if ($('.unratedfeatures').is(":visible")) {
             $(".spikefeatures").show();
@@ -229,16 +231,14 @@ $(document).ready(function () {
     });
 });
 
-function change()
-{
-    var btnlist = ["btn-unratedfeatures1","btn-rankedfeatures1","btn-spikefeatures1","btn-deathfeatures1","btn-escalationfeatures1"]
+function change() {
+    var btnlist = ["btn-unratedfeatures1", "btn-rankedfeatures1", "btn-spikefeatures1", "btn-deathfeatures1", "btn-escalationfeatures1"]
 
-    for(i = 0; i < btnlist.length;i++){
+    for (i = 0; i < btnlist.length; i++) {
         var btn = document.getElementById(btnlist[i])
-        if (btn.innerHTML==="More Info"){
+        if (btn.innerHTML === "More Info") {
             btn.innerHTML = "Less Info"
-        }
-        else if(btn.innerHTML ==="Less Info"){
+        } else if (btn.innerHTML === "Less Info") {
             btn.innerHTML = "More Info"
         }
     }
