@@ -30,3 +30,7 @@ Learning to use bootstrap to make a helpful website for users that want to learn
 <h3>Added gamemade info</h3>
 
 ![Gamemode info](https://i.imgur.com/Fq3N1Vo.png)
+
+<h3>Added External Agent site</h3>
+
+![Agents](https://i.imgur.com/cOFDOCa.jpg)
