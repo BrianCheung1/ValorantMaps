@@ -19,7 +19,7 @@
 }
 
 .bg-img {
-    background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png), url(./imgs/Homescreen.png);
+    background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png);
     background-repeat: no-repeat;
     background-position: -5%, 110%;
     background-attachment: fixed;
@@ -283,3 +283,9 @@ a:focus {
         -webkit-transform: translateY(0%);
     }
 }
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
