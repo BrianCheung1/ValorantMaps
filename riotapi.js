@@ -10,7 +10,7 @@ $(document).ready(function () {
 
         // Open an obejct (GET/POST, PATH,
         // ASYN-TRUE/FALSE)
-        xhr.open("GET", "http://dummy.restapiexample.com/api/v1/employees", true);
+        xhr.open("GET", "https://dummy.restapiexample.com/api/v1/employees", true);
 
         // When response is ready
         xhr.onload = function () {
