@@ -106,84 +106,323 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <div class="modal-header border-danger justify-content-center">
+                                        <div class="modal-header border-danger justify-content-between">
                                             <h5 class="modal-title">Skins</h5>
-                                        </div>
-                                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                              <div class="carousel-item active">
-                                                <img src="./imgs/Classic Skins/Classic_avalanche.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Avalanche</h5>
-                                                    <p>VALORANT Points 1,275</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_galleria.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Galleria
-                                                    </h5>
-                                                    <p>VALORANT Points 875</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_kingdom.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Kingdom
-                                                    </h5>
-                                                    <p>Battlepass: Ignition: Act 1 Level 50</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_raze's_classic.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Raze's Classic
-                                                    </h5>
-                                                    <p>Agent Contract: Raze Level 10</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_red_alert.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Red Alert
-                                                    </h5>
-                                                    <p>Battlepass: Ignition: Act 2 Level 40</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_sage's_classic.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Sage's Classic
-                                                        e</h5>
-                                                    <p>Agent Contract: Sage Level 10</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_sakura.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Sakura
-                                                        </h5>
-                                                    <p>VALORANT Points 1,275</p>
-                                                  </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./imgs/Classic Skins/Classic_smite.png" class="d-block w-100" alt="...">
-                                                <div class="carousel-caption d-none d-md-block">
-                                                    <h5>Classic | Smite
-                                                    </h5>
-                                                    <p>VALORANT Points 875</p>
-                                                  </div>
-                                              </div>
+
+                                            <div class="dropdown">
+                                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                                    id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    Sets
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                                                    <li><a class="dropdown-item" id="btn-regular" href="#">Regular</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" id="btn-prime" href="#">Prime</a></li>
+                                                    <li><a class="dropdown-item" id="btn-spline" href="#">Spline</a></li>
+                                                    <li><a class="dropdown-item" id="btn-g_u_n" href="#">Gravitational
+                                                            Uranium Neuroblaster
+                                                        </a></li>
+                                                    <li><a class="dropdown-item" id="btn-surge" href="#">Surge</a></li>
+                                                </ul>
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"  data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
+                                        </div>
+
+                                        <div id="carouselExample" class="carousel slide regular" data-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./imgs/Classic Skins/Classic_avalanche.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Avalanche</h5>
+                                                        <p>VALORANT Points 1,275</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_galleria.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Galleria
+                                                        </h5>
+                                                        <p>VALORANT Points 875</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_kingdom.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Kingdom
+                                                        </h5>
+                                                        <p>Battlepass: Ignition: Act 1 Level 50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_raze's_classic.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Raze's Classic
+                                                        </h5>
+                                                        <p>Agent Contract: Raze Level 10</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_red_alert.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Red Alert
+                                                        </h5>
+                                                        <p>Battlepass: Ignition: Act 2 Level 40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_sage's_classic.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Sage's Classic
+                                                            e</h5>
+                                                        <p>Agent Contract: Sage Level 10</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_sakura.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Sakura
+                                                        </h5>
+                                                        <p>VALORANT Points 1,275</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_smite.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Smite
+                                                        </h5>
+                                                        <p>VALORANT Points 875</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
                                             </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"  data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
                                             </button>
-                                          </div>
+                                        </div>
+
+                                        <div id="carouselExample1" class="carousel slide prime" data-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./imgs/Classic Skins/Classic_prime_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Prime
+                                                        </h5>
+                                                        <p>VALORANT Points 1,775</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_prime_blue_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Prime Blue
+
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_prime_orange_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Prime Orange
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_prime_yellow_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Prime Yellow
+
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExample1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                        <div id="carouselExample2" class="carousel slide spline" data-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./imgs/Classic Skins/Classic_spline_red_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Spline
+                                                        </h5>
+                                                        <p>VALORANT Points 1,775</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_spline_blue_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Spline Blue
+
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_spline_green_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Spline Green
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_spline_red_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Spline Red
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExample2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                        <div id="carouselExample3" class="carousel slide g_u_n" data-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./imgs/Classic Skins/Classic_g.u.n_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | G.U.N
+                                                        </h5>
+                                                        <p>VALORANT Points 1,775</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_g.u.n_black_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | G.U.N Black
+
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_g.u.n_chrome_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | G.U.N Chrome
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_g.u.n_rwb_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | G.U.N RWB
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExample3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                        
+                                        <div id="carouselExample4" class="carousel slide surge" data-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./imgs/Classic Skins/Classic_surge_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Surge
+                                                        </h5>
+                                                        <p>Battlepass: Ignition: Act 3 Level 16</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_surge_blue_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Surge Blue
+
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_surge_grey_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Surge Grey
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./imgs/Classic Skins/Classic_surge_yellow_VALORANT.png"
+                                                        class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Classic | Surge Yellow
+                                                        </h5>
+                                                        <p>Radianite Points 15</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExample4" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
                                     </div>
                                     <div class="modal-footer bg-dark border-danger justify-content-center">
                                         <button type="button" class="btn btn-secondary"
@@ -1200,14 +1439,16 @@
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="customjs.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        </script>
+        <script src="customjs.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
